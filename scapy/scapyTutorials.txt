@@ -76,3 +76,16 @@ bi terminalde scapy'den yolla diğerinde sniff kodu yaz
 	>>> s4.summary()
 Ether / IP / ICMP 10.10.10.134 > 10.10.10.21 echo-request 0
 Ether / IP / ICMP 10.10.10.21 > 10.10.10.134 echo-reply 0 / Padding
+
+
+*************************************************************************
+>>> ls(Ether)
+>>> ls(ARP)
+
+layer3 packet
+>>> help(sr)
+>>> help(send)
+
+layer2 packet
+>>> help(srp)
+>>> help(sendp)
